@@ -1,0 +1,10 @@
+import math
+
+a = float(input("Введите ваше число: "))
+b = float(input("Введите ещё одно число: "))
+
+z1 = (((math.sin(2*a))+(math.sin(5*a))-(math.sin(3*a)))/((math.cos(a))-(math.cos(3*a))+(math.cos(5*a))))
+z2 = (math.tan(3*b))
+
+print (z1)
+print (z2)
